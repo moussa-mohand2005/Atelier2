@@ -147,11 +147,6 @@ J'ai aussi découvert comment adapter des modèles préentraînés comme VGG16 e
 
 Ce qui m'a surtout marqué, c'est que le modèle le plus complexe n'est pas toujours le plus intéressant. Il faut comparer la précision, le temps d'entraînement et les contraintes de chaque méthode. Sur MNIST, un CNN assez simple donne déjà de très bons résultats.
 
-## 6. Outils et données
-
-- **Environnement :** Kaggle Notebook, GPU Tesla T4
-- **Bibliothèques :** Python, PyTorch, TorchVision, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
-- **Dataset :** [MNIST - Kaggle](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
 
 Pour réexécuter les notebooks sur Kaggle, il faut ajouter le dataset MNIST (les quatre fichiers IDX) et activer le GPU. Le notebook de la première partie utilise aussi des poids préentraînés téléchargés avec TorchVision, donc un accès Internet est nécessaire pour le premier téléchargement.
 
